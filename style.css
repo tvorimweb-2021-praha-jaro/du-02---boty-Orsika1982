@@ -5,9 +5,145 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    max-width: 670px;
+    max-height: 440px;
+    margin: auto;
+    background-color: #f5f5f5;
+    padding-top: 100px;
+    font-family: rubik;
+}
+.logo {
+    padding-top: 30px;
+    padding-left: 30px;
+    margin: 0;
+}
+.slogan {
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin: 0px
+}
+.cena {
+    font-weight: 500;
+    font-size: 28px;
+    width: 110px;
+    height: 28px;
+    display: inline-block;
+    position: relative;
+    bottom: 60px;
+    left: 205px;
+}
+.zaruka {
+    font-weight: 400;
+    font-size: 12px;
+    height: 20px;
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    left: 170px;
 }
 
+.cenovka {
+    display: inline-block;
+}
+.nazev {
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin: 0;
+}
+.produkt {
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin: 0;
+    color: #959595;
+}
+.popis {
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1px #06d7c1 solid;
+    padding: 30px 0;
+    margin: 0 0 0 30px     ;
+    width: 80%;
+} 
+
+.velikosti {
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+.akce {
+    margin-left: 30px;
+    background-color: #f15f42;
+    border-radius: 10%;
+    width: 130px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+}
+.tlacitko {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.vizual {
+    display: inline-block;
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    color: white;
+    border-radius: 30px 0px 0px 30px;
+    width: 50%;
+    height: 440px;
+}
+.detaily {
+    float: right;
+    background-color: white;
+    border-radius: 0px 30px 30px 0px;
+    margin: auto;
+    width:  50%;
+    height: 440px;
+}
+.parametr {
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.vybrana {
+    color: #f15f42;
+    border-radius: 50%;
+    border: 1px #f15f42 solid;
+    text-align: center;
+    padding: 3px;
+    margin-left: 20px;
+}
+
+li {
+    display: inline-block;
+    padding-left: 20px;
+}
+.bota {
+    float: right;
+}
+.zbozi {
+    position: fixed;
+    max-width: 670px;
+    max-height: 440px;
+}
+
+
 /*
+
  BARVY
  svetle sede pozadi      #f5f5f5
  tmavsi seda             #959595
